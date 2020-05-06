@@ -21,6 +21,12 @@ public class isUnique {
 		sample2.put("Bruce", "Reges");
 		sample2.put("Hal", "Perkins");
 		System.out.println(isUnique(sample2));
+		
+		
+		Map<String, String> sample3 = new HashMap<String, String>();
+		sample3.put("Kendrick", "Perkins");
+		sample3.put("Harry", "perkins");
+		System.out.println(isUnique(sample3));
 	}
 
 	public static boolean isUnique(Map<String, String> map) {
